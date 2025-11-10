@@ -1,0 +1,26 @@
+reviews:
+  pre_merge_checks:
+    custom_checks:
+      - name: "Error Handling"
+        mode: "error"
+        instructions: "Ensure methods handle invalid inputs or possible errors. Methods should validate inputs or use proper error handling mechanisms."
+
+      - name: "Naming Conventions"
+        mode: "error"
+        instructions: "Class names and method names must follow C# PascalCase naming conventions. Avoid snake_case, camelCase, or inconsistent capitalization."
+
+      - name: "Code Comments"
+        mode: "warning"
+        instructions: "Public methods should include a short comment describing their purpose. Comments must be clear, meaningful, and helpful."
+
+      - name: "Console Logging"
+        mode: "warning"
+        instructions: "Console output must be meaningful and clearly describe what is being printed. Avoid vague or unclear Console.WriteLine messages."
+
+      - name: "Clean & Readable Code"
+        mode: "warning"
+        instructions: "Code must be clean, readable, well-structured, and follow proper indentation, spacing, and formatting."
+
+      - name: "Code Duplication"
+        mode: "error"
+        instructions: "Avoid duplicated code. Shared or repeated logic should be extracted into reusable methods, helpers, or services."
