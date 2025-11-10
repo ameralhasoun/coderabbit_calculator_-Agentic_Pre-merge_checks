@@ -20,7 +20,3 @@ reviews:
       - name: "Clean & Readable Code"
         mode: "warning"
         instructions: "Code must be clean, readable, well-structured, and follow proper indentation, spacing, and formatting."
-
-      - name: "Code Duplication"
-        mode: "error"
-        instructions: "Avoid duplicated code. Shared or repeated logic should be extracted into reusable methods, helpers, or services."
